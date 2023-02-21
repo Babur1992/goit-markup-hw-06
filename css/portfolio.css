@@ -432,3 +432,74 @@ ul {
     height: auto;
 
 }
+.subscribe-text {
+  margin-left: 88px;
+}
+
+.social-text {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.02em;
+  
+}
+
+
+.social-label{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 88px;
+  
+
+
+}
+
+.social-field {
+   display: flex;
+   align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: var(--bgr);
+  padding: 8px 16px;
+
+}
+
+.social-subscribe-btn {
+  display: flex;
+  align-items: center;
+  padding: 8px 24px;
+  color: var(--body);
+  gap: 16px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  width: 165px;
+  height: 40px;
+  background-color: var(--logo);
+  transition: var(--transition);
+}
+
+.social-subscribe-btn:hover,
+.social-subscribe-btn:focus {
+  background-color: var(--nav);
+}
+
+
+.subscribe-icon:hover,
+.subscribe-icon:focus {
+  color: var(--body);
+}
