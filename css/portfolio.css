@@ -467,7 +467,7 @@ ul {
    display: flex;
    align-items: center;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  
+  color: var(--body);
   border-radius: 4px;
   width: 264px;
   height: 40px;

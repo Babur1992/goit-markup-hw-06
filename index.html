@@ -487,7 +487,7 @@
       <form class="modal-form" name="modal_form">
         <label class="modal-form-label">
           <div class="modal-form-group">
-          <span class="modal-form-namename">Name</span>
+            <span class="modal-form-namename">Name</span>
             <input class="modal-form-field" type="text" name="user_name" required pattern="^[a-zA-Zа-яА-Я]+"
               minlength="4" />
             <svg class="modal-form-icon" width="18" height="18">
@@ -498,7 +498,7 @@
 
         <label class="modal-form-label">
           <div class="modal-form-group">
-          <span class="modal-form-namename">Phone</span>
+            <span class="modal-form-namename">Phone</span>
             <input class="modal-form-field" type="tel" name="user_phone" required pattern="[0-9]{3}-[0-9]{7}"
               title="xxx-xxxxxxx" />
             <svg class="modal-form-icon" width="18" height="24">
@@ -506,7 +506,7 @@
             </svg>
           </div>
         </label>
-  
+
         <label class="modal-form-label">
           <div class="modal-form-group">
             <span class="modal-form-namename">Email</span>
@@ -517,22 +517,21 @@
           </div>
         </label>
 
-        <label class="modal-form-label">
-          <span class="modal-form-name">Comment</span>         
+        <label class="modal-form-label modal-comment">
+          <span class="modal-form-name">Comment</span>
           <textarea class="modal-form-comment" name="modal-form-comment" placeholder="Text input..."></textarea>
         </label>
-        
+
         <label class="modal-form-text-checkbox">
-          <input name="Comment" type="checkbox" class="modal-form-checkbox"/>
-         I accept the terms and conditions of the<a class="modal-form-link" href="#">Privacy Policy</a>
-        </label>       
+          <input name="Comment" type="checkbox" class="modal-form-checkbox visually-hidden" />
+          <!-- <svg class="" width="" height="">
+            <use href=""></use>
+          </svg> -->
+          I accept the terms and conditions of the<a class="modal-form-link" href="#">Privacy Policy</a>
+        </label>
 
         <button class="modal-form-btn" type="submit">Send</button>
       </form>
       <script src="./js/modal.js"></script>
 </body>
-
-
-
-
 </html>
