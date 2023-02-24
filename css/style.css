@@ -621,7 +621,6 @@ ul {
 }
 
 .backdrop.is-hidden {
-
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -641,8 +640,6 @@ ul {
   width: 408px;
   height: 567px;
   padding: 72px 24px 17px 24px;
-
-
 }
 
 .modal-btn {
@@ -650,20 +647,14 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-
   top: 24px;
   right: 24px;
   width: 24px;
   height: 24px;
-
   border-radius: 1px;
-
   border-radius: 50%;
   background: #E7E9FC;
-
   border: 1px solid rgba(0, 0, 0, 0.1);
-
-
 }
 
 .modal-btn:hover,
