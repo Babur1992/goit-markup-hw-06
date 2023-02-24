@@ -633,10 +633,8 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #FCFCFC;
-
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-
   width: 408px;
   height: 567px;
   padding: 72px 24px 17px 24px;
@@ -682,14 +680,9 @@ ul {
   letter-spacing: 0.02em;
   padding: 0;
   margin-bottom: 8px;
-
 }
 
-
-.modal-form {}
-
 .modal-form-group {
-
   position: relative;
   font-weight: 400;
   font-size: 12px;
@@ -697,13 +690,11 @@ ul {
   letter-spacing: 0.04em;
   color: var(--mod-form);
   transition: var(--transition);
-
 }
 
 .modal-form-field:focus {
   outline: none;
   border-color: var(--background);
-
 }
 
 .modal-form-field {
