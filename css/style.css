@@ -624,12 +624,12 @@ ul {
   transition-duration: 250ms;
 }
 
-/* .backdrop.is-hidden {
+.backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 
-} */
+}
 
 .modal {
   position: absolute;
@@ -744,7 +744,11 @@ ul {
   transform: translateY(-10%);
   pointer-events: none;
   fill: var(--transition);
+  cursor: pointer;
 }
+
+
+
 
 .modal-form-comment {
   display: block;
@@ -759,7 +763,6 @@ ul {
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-
   transition: border-color var(--transition);
 }
 
@@ -783,7 +786,7 @@ ul {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  
+
 }
 
 .checkbox-icon {
